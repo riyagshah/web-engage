@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnSite Survey</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="image_container">
+            <img src="./sideimage.jpeg" />
+        </div>
+        <div class="container">
+            <div class="info">
+                <div class="info_logo">
+                    <h1>LOGO</h1>
+                    <h3>Get a FREE</h3>
+                </div>
+                <div class="info_details">
+                    <p>Consultation with an expert</p>
+                </div>
+            </div>
+            <div class="input_form">
+                <form class="form">
+                    <div class="emial_sec">
+                        <input type="email" placeholder="Enter your email" id="email" required />
+                    </div>
+                    <div class="span_sec">
+                        <span id="for_email"></span>
+                    </div>
+                    <div class="phone">
+                        <div class="phone_code">
+                            <select id="phone_code">
+                                <option value="90">TR+90</option>
+                                <option value="91">IN +91</option>
+                                <option value="92">PK +92</option>
+                            </select>
+                        </div>
+                        <div class="phone_no">
+                            <input type="number" placeholder="Enter Your Mobile" id="number" required />
+                        </div>
+                    </div>
+                    <div class="span_sec">
+                        <span id="for_number"></span>
+                    </div>
+                    <div class="submit_btn">
+                        <button onclick="test(event)" id="btn">Talk To Us ➞</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js">
+
+</script>
+
+</html>
